@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+/* Sections */
+.section {
+    display: none;
+    padding: 50px;
+}
+
+.active {
+    display: block;
+}
+
+/* Login box */
+.login-box {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #ff7043;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Menu */
+.menu {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.price {
+    color: #ff7043;
+    font-weight: bold;
+}

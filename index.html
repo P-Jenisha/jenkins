@@ -1,1 +1,61 @@
-Hi How are you?
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Restaurant Website</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- LOGIN PAGE -->
+<div id="login" class="section active">
+    <div class="login-box">
+        <h2>🍽️ My Hotel</h2>
+        <h3>Login</h3>
+
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+
+        <button onclick="showWelcome()">Login</button>
+        <p id="error" style="color:red;"></p>
+
+        <!-- PUBLIC LOGIN DETAILS -->
+        <p style="color:green;">
+            Demo Login → Username: <b>admin</b> | Password: <b>1234</b>
+        </p>
+    </div>
+</div>
+
+<!-- WELCOME PAGE -->
+<div id="welcome" class="section">
+    <h1>Welcome to Our Restaurant 🍽️</h1>
+    <p>Enjoy delicious food and great service!</p>
+
+    <button onclick="showMenu()">View Menu</button>
+</div>
+
+<!-- MENU PAGE -->
+<div id="menu" class="section">
+    <div class="menu">
+        <h1>Menu List 🍴</h1>
+
+        <div class="item"><span>Veg Burger</span><span class="price">₹100</span></div>
+        <div class="item"><span>Chicken Burger</span><span class="price">₹150</span></div>
+        <div class="item"><span>Pizza</span><span class="price">₹200</span></div>
+        <div class="item"><span>Pasta</span><span class="price">₹180</span></div>
+        <div class="item"><span>Fried Rice</span><span class="price">₹120</span></div>
+        <div class="item"><span>Biryani</span><span class="price">₹220</span></div>
+        <div class="item"><span>Ice Cream</span><span class="price">₹80</span></div>
+
+        <br>
+        <button onclick="goBack()">Logout</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
